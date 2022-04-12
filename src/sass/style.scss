@@ -9,29 +9,22 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
-}
-@media (max-width: 991px) {
-    .container {
+    @media (max-width: 991px) {
         width: 720px;
     }
-}
-@media (max-width: 767px) {
-    .container {
-        width: 540px;
-    }
-}
-@media (max-width: 575px) {
-    .container {
+    @media (max-width: 767px) {
         width: 100%;
     }
 }
+
 @import 'base/variables';		
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/title';
-
+@import 'blocks/consultation';
+@import 'blocks/forms';
 
 				
 
