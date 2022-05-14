@@ -19,4 +19,13 @@
             
         }
     }
+    .error {
+        border: 1px solid red;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    label.error {
+        border: none;
+        color:#FFFFFF;
+    }
 }
